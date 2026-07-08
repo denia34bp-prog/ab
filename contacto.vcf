@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=UTF-8:García Nuñez;Aarón Güendulain;;;
+FN;CHARSET=UTF-8:Aarón Güendulain García Nuñez
+ORG:MarcaXYZ
+TITLE:Responsable
+TEL;TYPE=CELL:+529511232222
+EMAIL;TYPE=INTERNET:contacto@marcaxyz.com
+URL:https://marcaxyz.com.mx
+END:VCARD
