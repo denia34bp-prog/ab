@@ -71,11 +71,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (btnCopiar) {
         btnCopiar.addEventListener('click', function() {
             const datos = `
-Nombre: Anatolli Devorak Qwerty
-Empresa: Duckling Productions / Ganzo Island
-Teléfono: +52 951 123 2222
-Correo: contacto@duckling.com
-Web: https://duckling.com
+Nombre: Denia Bravo Pérez
+Empresa: Denia Bravo
+Teléfono: +52 951 789 3062
+Correo: denia34bp@institutosanpablo.edu.mx
+Web: https://t.ly/vind7
             `.trim();
 
             // Usar clipboard API con fallback
@@ -129,7 +129,7 @@ Web: https://duckling.com
             // destinatario: contacto@duckling.com
             // asunto: Solicitud de información desde la web
             // cuerpo: nombre, correo y mensaje
-            const destinatario = 'contacto@duckling.com';
+            const destinatario = 'denia34bp@institutosanpablo.edu.mx';
             const asunto = encodeURIComponent('Solicitud de información desde la web');
             const cuerpo = encodeURIComponent(
                 `Nombre: ${nombre}\nCorreo: ${correo}\n\nMensaje:\n${mensaje}`
